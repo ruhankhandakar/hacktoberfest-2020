@@ -16,10 +16,10 @@
 
 > A beginner friendly project - you can use HTML, CSS and Bootstrap (this is for who knows HTML, CSS and Bootstrap)
 >
-> - Nettlify clone [Design](https://drive.google.com/file/d/10mzGU6NBe3JM5kqbKRp_wYAUavuorfy0/view?usp=sharing)
-> - App Landing Page [Design](https://drive.google.com/file/d/1fzu1eoulm-LWT6b0UC7GJ-EU7LF6MAY-/view?usp=sharing)
-> - eduFlow page [Design](https://drive.google.com/file/d/1GIHfz4pFdOO5h9zoW5CBG_tQQZF6y5Lp/view?usp=sharing)
-> - clickPivot page [Design](https://drive.google.com/file/d/1dmBxHQ19jhcFhib0rck6QZSn6JVCpICr/view?usp=sharing)
+> - Nettlify clone [Design](https://drive.google.com/file/d/1sDkJiNKOzyZa7ZlPJKfOob9emM1BF3NE/view?usp=sharing)
+> - App Landing Page [Design](https://drive.google.com/file/d/1_KJMs1yK9c-lh9VQuz01SRW1L2LRDq4u/view?usp=sharing)
+> - eduFlow page [Design](https://drive.google.com/file/d/1U7IpB2K536UtwDw9uADMWR1QiqAK6mvU/view?usp=sharing)
+> - clickPivot page [Design](https://drive.google.com/file/d/1U99xpUfPmyiD0vt7AL_vPvA1L-TO9L9t/view?usp=sharing)
 
 ---
 
