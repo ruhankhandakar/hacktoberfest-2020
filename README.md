@@ -92,7 +92,7 @@
 
 > If you want to go deep dive about open source contribution, then you can read this [Docs](https://github.com/github/opensource.guide/blob/master/CONTRIBUTING.md)
 
-> Till now I Hope you've knowledge about Pull Request, so now click on `Issues` tab, and from there select any issue on which you want to do, make sure you select any issue which isn't engaged by someone.
+> Till now I Hope you've knowledge about Pull Request, so now click on `Issues` tab, and from there select any issue on which you want to do, make sure you select any issue which isn't engaged by someone..
 
 ### Rule
 
