@@ -94,11 +94,17 @@
 
 > Till now I Hope you've knowledge about Pull Request, so now click on `Issues` tab, and from there select any issue on which you want to do, make sure you select any issue which isn't engaged by someone.
 
+### Rule
+
 > Remember you have to make your own branch, just like `ruhan-dev`. Don't write any code in `master` branch
 
 > You can create any issue and then you can work on it, but without create an issue please don't start contribute, I've added some issue, feel free to check issue tab.
 
-### Have enjoy now 💝
+> If you want to add more project then use the respective folder for creating a new project folder, and then create an issue after that you can work on it
+
+> Make Pull Request after pushing your code
+
+### Have fun now 💝
 
 **Remember, you only need to make 4 pull requests to one of these open source project in the month of October, and you get an awesome Hacktoberfest shirt! Let's see if we can beat the record from last year!!**
 
