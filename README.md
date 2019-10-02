@@ -64,6 +64,26 @@
     2. Validate fields
     3. Show/hide password feature
 
+### ![NodeJS](https://img.shields.io/badge/NodeJS-Backend-blue)
+
+> Todo App
+
+    1. Create All Route (CRUD)
+    2. Test with postman
+    3. validate incoming data
+    4. You have to use NodeJS, express to create server
+
+> Simple registration
+
+    1.Create user, Update, delete user,
+    2. Test with postman
+
+> Todo App
+
+    1. All of above todo app features
+    2. Store todos in `MongoDB` Database
+    3. Use MongoDB Atlas
+
 ---
 
 ### But how do I make a pull request/participate?
