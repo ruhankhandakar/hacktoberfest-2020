@@ -33,6 +33,15 @@
 
 > Remember you have to make your own branch, just like `ruhan-dev`. Don't write any code in `master` branch
 
+> You can create any issue and then you can work on it, but without create an issue please don't start contribute, I've added some issue, feel free to check issue tab.
+
 ### Have enjoy now 💝
 
 **Remember, you only need to make 4 pull requests to one of these open source project in the month of October, and you get an awesome Hacktoberfest shirt! Let's see if we can beat the record from last year!!**
+
+> If you need any kind of help then you can connect with me
+>
+> - [twitter](https://twitter.com/KhandakarRuhan)
+> - [facebook](https://www.facebook.com/Ruhan.Rum)
+> - [LinkedIn](https://www.linkedin.com/in/ruhan-khandaker/)
+> - Email - khandakarruhan@gmail.com
