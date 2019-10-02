@@ -51,6 +51,11 @@
     3. Validate question
     4. At the end show the point
 
+> Countdown timer app
+
+    1. Create UI
+    2. Render dynamic timper with start, pause, reset button
+
 ---
 
 ### But how do I make a pull request/participate?
