@@ -33,6 +33,7 @@
 
     1. Create UI
     2. Fully CRUD functionality
+    3. user localstorage
 
 > Word count
 
@@ -50,11 +51,18 @@
     2. Render all question
     3. Validate question
     4. At the end show the point
+    5. use localstorage to store user's point
 
 > Countdown timer app
 
     1. Create UI
     2. Render dynamic timper with start, pause, reset button
+
+> Login Page
+
+    1. Create UI
+    2. Validate fields
+    3. Show/hide password feature
 
 ---
 
