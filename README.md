@@ -34,6 +34,23 @@
     1. Create UI
     2. Fully CRUD functionality
 
+> Word count
+
+    1. Create UI
+    2. Use logic to create this
+
+> Digital and Analog clock
+
+    1. Create UI
+    2. Show dynamic clock
+
+> Quiz App
+
+    1. Create UI
+    2. Render all question
+    3. Validate question
+    4. At the end show the point
+
 ---
 
 ### But how do I make a pull request/participate?
