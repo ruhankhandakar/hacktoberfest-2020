@@ -102,6 +102,8 @@
 
 > If you want to add more project then use the respective folder for creating a new project folder, and then create an issue after that you can work on it
 
+> Make Pull Request after pushing your code
+
 ### Have fun now 💝
 
 **Remember, you only need to make 4 pull requests to one of these open source project in the month of October, and you get an awesome Hacktoberfest shirt! Let's see if we can beat the record from last year!!**
