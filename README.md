@@ -21,6 +21,19 @@
 > - eduFlow page [Design](https://drive.google.com/file/d/1U7IpB2K536UtwDw9uADMWR1QiqAK6mvU/view?usp=sharing)
 > - clickPivot page [Design](https://drive.google.com/file/d/1U99xpUfPmyiD0vt7AL_vPvA1L-TO9L9t/view?usp=sharing)
 
+### ![JS](https://img.shields.io/badge/JS-JavaScript-orange)
+
+> Weather app
+
+    1. Create UI
+    2. Use jQuery Ajax/fetch
+    3. Use any weather API
+
+> Todo App
+
+    1. Create UI
+    2. Fully CRUD functionality
+
 ---
 
 ### But how do I make a pull request/participate?
