@@ -20,3 +20,19 @@
 > - App Landing Page [Design](https://drive.google.com/file/d/1fzu1eoulm-LWT6b0UC7GJ-EU7LF6MAY-/view?usp=sharing)
 > - eduFlow page [Design](https://drive.google.com/file/d/1GIHfz4pFdOO5h9zoW5CBG_tQQZF6y5Lp/view?usp=sharing)
 > - clickPivot page [Design](https://drive.google.com/file/d/1dmBxHQ19jhcFhib0rck6QZSn6JVCpICr/view?usp=sharing)
+
+---
+
+### But how do I make a pull request/participate?
+
+> If you've never made a pull request before, or participated in an open source project, we recommend taking a look at this [Crash course](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
+
+> If you want to go deep dive about open source contribution, then you can read this [Docs](https://github.com/github/opensource.guide/blob/master/CONTRIBUTING.md)
+
+> Till now I Hope you've knowledge about Pull Request, so now click on `Issues` tab, and from there select any issue on which you want to do, make sure you select any issue which isn't engaged by someone.
+
+> Remember you have to make your own branch, just like `ruhan-dev`. Don't write any code in `master` branch
+
+### Have enjoy now 💝
+
+**Remember, you only need to make 4 pull requests to one of these open source project in the month of October, and you get an awesome Hacktoberfest shirt! Let's see if we can beat the record from last year!!**
