@@ -1,0 +1,31 @@
+.circle{
+    height: 350px;
+    width: 350px;
+    border: 3px solid green;
+    border-radius: 50%;
+    position: relative;
+  }
+  .hand{
+    background-color: black;
+    left: 50%;
+    top: 50%;
+    border: 3px solid green;
+    transform: translate(-50%, -50%);
+    position: absolute;  
+    transform-origin:top center;
+  }
+  .hour{
+    height: 70px;
+    width: 8px;
+  /*   transform:translate(-50%) */
+  } 
+  .minute{
+    height: 100px;
+    width: 4px;
+  /*   transform:translate(-50%) */
+  } 
+  .second{
+    height: 150px;
+    width: 3px;
+  /*   transform:translate(-50%) */
+  }
