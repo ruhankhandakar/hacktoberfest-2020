@@ -98,7 +98,7 @@
 
 > Remember you have to make your own branch, just like `ruhan-dev`. Don't write any code in `master` branch
 
-> You can create any issue and then you can work on it, but without create an issue please don't start contribute, I've added some issue, feel free to check issue tab.
+> You can create any issue and then you can work on it, **`but without create/select any issue please don't start contribute`**, I've added some issue, feel free to check issue tab.
 
 > If you want to add more project then use the respective folder for creating a new project folder, and then create an issue after that you can work on it
 
