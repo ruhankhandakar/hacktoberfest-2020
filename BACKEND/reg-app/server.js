@@ -34,25 +34,43 @@ app.use(bodyParser.json());
 
 app.post('/newUser',[ 
    
-    check('full_name','Name cannot be left blank enter minimum 5 characters')
-        .isLength({ min: 5 }),
-   
+    check('full_name','Name cannot be left blank.')
+        .isLength({ min: 5 }).withMessage('Name must be at least 5 chars long')
+        .isAlpha().withMessage('Name must be only Alphabets')
+        .not().isEmpty(),
+    check('userName')
+        .isLength({ min: 3}).trim()
+        .withMessage('Username cannot be empty.')
+        .matches(/^[a-zA-Z0-9_]+$/, 'i').withMessage('Username must be alphanumeric, and can contain underscores'),
     check('email')
        .isEmail().withMessage('Please enter a valid email address')
        .trim()
-       .normalizeEmail(),
+       .normalizeEmail()
+       .custom(value => {
+        return User.findByEmail(value).then(user => {
+          if (user) {
+            return Promise.reject('E-mail already in use. Please enter different Email id');
+          }
+        })
+    }),
        
     check('password')
-       .isLength({ min: 6 }).withMessage('Password must be at least 6 chars long')
-       .matches(/\d/).withMessage('Password must contain one number'),
+       .isLength({ min: 6, max:20 }).withMessage('Password must be between 6-20 chars long')
+       .not().isIn(['password']).withMessage('Do not use a common word as the password')
+       .matches(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.* )(?=.*[^a-zA-Z0-9]).{8,}$/, 'i')
+       .withMessage('Password must include one lowercase character, one uppercase character, a number, and a special character.'),
        
   check('gender','Please select gender')
-       .isLength({ min: 1 }),
+       .isLength({ min: 1 })
+       .not().isEmpty(),
     check('dob','Date of birth cannot be left blank')
-       .isLength({ min: 1 }),
+       .isLength({ min: 1 })
+       .not().isEmpty()
+       .isISO8601().toDate(),
     
     check('country','Country cannot be left blank')
        .isLength({ min: 1 })
+       .not().isEmpty()
     
    ]
 
@@ -64,6 +82,7 @@ app.post('/newUser',[
     else{
         var details={
             full_name:   req.body.full_name,
+            userName:    req.body.userName,
             email:       req.body.email,
             password:    req.body.password, 
             dob:         req.body.dob, 
@@ -81,8 +100,8 @@ app.post('/newUser',[
     }
  });
 //  update user details using id
-app.put('/updateUser', (req, res) => {
-    db.collection('users').updateOne({ObjectId:(req.query.id)},{$set:req.body}, function(error,result){
+app.put('/updateUser/:id', (req, res) => {
+    db.collection('users').updateOne({ObjectId:(req.param.id)},{$set:req.body}, function(error,result){
         if(error)
         throw error;
         res.json(result);
@@ -90,8 +109,8 @@ app.put('/updateUser', (req, res) => {
     })
 });
 // delete particular user using id
-app.delete('/deleteUser', (req, res) => {
-    db.collection('users').deleteOne({ObjectId:(req.query.id)},function(error,result){
+app.delete('/deleteUser/:id', (req, res) => {
+    db.collection('users').deleteOne({ObjectId:(req.param.id)},function(error,result){
         if(error) throw error;
         res.send("User deleted Successfully");
     });
